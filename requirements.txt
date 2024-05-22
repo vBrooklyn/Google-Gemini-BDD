@@ -1,2 +1,6 @@
-pytest==6.2.5
-selenium==4.0.0
+pytest==8.2.0
+selenium==4.9.1
+ipython
+google-generativeai
+python-dotenv
+notebook

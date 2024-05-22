@@ -26,7 +26,7 @@ def get_webdriver(get_chrome_options):
 def setup(request, get_webdriver):
     driver = get_webdriver
     driver = EventFiringWebDriver(driver, MyListener())
-    url = 'https://www.macys.com/'
+    url = 'https://www.mclovinspet.com/'
     if request.cls is not None:
         request.cls.driver = driver
     driver.get(url)
